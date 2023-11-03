@@ -36,7 +36,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-welshdan-drf-api-dibib7m1nr.us2.codeanyapp.com',
-    
+
 ]
 
 
@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
-
+    'rest_framework',
     'profiles',
 ]
 
