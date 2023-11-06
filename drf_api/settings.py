@@ -35,8 +35,7 @@ SECRET_KEY = 'django-insecure-wlgerx+v3buo9g!dam$_y&-j_sc4s8#4^vo_9(*o^v3i(so4s1
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-welshdan-drf-api-dibib7m1nr.us2.codeanyapp.com',
-
+    '8000-welshdan-drf-api-dibib7m1nr.us2.codeanyapp.com'
 ]
 
 
@@ -131,7 +130,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
