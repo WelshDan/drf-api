@@ -40,3 +40,4 @@ Happy coding!
 
 Superuser login:
 Admin / Friday:2023
+Test2 / Monday:2023
