@@ -9,7 +9,6 @@ class Like(models.Model):
     'owner' is a User instance and 'post' is a Post instance.
     'unique_together' makes sure a user can't like the same post twice.
     """
-
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     post = models.ForeignKey(
         Post, related_name='likes', on_delete=models.CASCADE
