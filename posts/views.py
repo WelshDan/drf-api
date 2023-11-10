@@ -6,7 +6,6 @@ from .serializers import PostSerializer
 from drf_api.permissions import IsOwnerOrReadOnly
 
 
-
 class PostList(generics.ListCreateAPIView):
     """
     List posts or create a post if logged in
